@@ -1281,25 +1281,25 @@ dd,
   display: inline-block;
   padding: 0.625rem;
   border: 1px solid #d9d9d9;
-  background: whitesmoke;
+  background: white;
   font-size: 1rem;
   color: #111111; }
   .field-input::-webkit-input-placeholder, .wrapper-custom-select::-webkit-input-placeholder,
   .field-select::-webkit-input-placeholder,
   .field-textarea::-webkit-input-placeholder {
-    color: #d9d9d9; }
+    color: #a0a0a0; }
   .field-input::-moz-placeholder, .wrapper-custom-select::-moz-placeholder,
   .field-select::-moz-placeholder,
   .field-textarea::-moz-placeholder {
-    color: #d9d9d9; }
+    color: #a0a0a0; }
   .field-input:-moz-placeholder, .wrapper-custom-select:-moz-placeholder,
   .field-select:-moz-placeholder,
   .field-textarea:-moz-placeholder {
-    color: #d9d9d9; }
+    color: #a0a0a0; }
   .field-input:-ms-input-placeholder, .wrapper-custom-select:-ms-input-placeholder,
   .field-select:-ms-input-placeholder,
   .field-textarea:-ms-input-placeholder {
-    color: #d9d9d9; }
+    color: #a0a0a0; }
   .field-input:focus, .wrapper-custom-select:focus, .field-input.is-active, .is-active.wrapper-custom-select,
   .field-select:focus,
   .field-select.is-active,
@@ -1342,7 +1342,7 @@ dd,
   transition: all 0.125s ease-in-out 0s; }
 
 .input-text.input-alt {
-  padding: spacing-verical(small) 0;
+  padding: 1.25rem 0;
   border-width: 0 0 2px 0;
   background: white; }
   .input-text.input-alt:focus, .input-text.input-alt.is-active {
