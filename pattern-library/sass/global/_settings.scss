@@ -1,3 +1,5 @@
+@import 'stanford.scss';
+
 // ------------------------------
 // edX Pattern Library: Variables
 
@@ -58,11 +60,11 @@ $red:                           rgb(178, 6, 16);
 $yellow:                        rgb(255, 192, 31);
 $green:                         rgb(0, 129, 0);
 $blue:                          rgba(0, 117, 180, 100);
-$pink:                          rgba(194, 56, 125, 100);
+$pink:                          $cardinal-medium;
 
 // colors:                      brand
-$brand-primary:                 $blue !default;
-$brand-secondary:               $pink !default;
+$brand-primary:                 $green-dark !default;
+$brand-secondary:               $cardinal-red !default;
 
 // colors: utilities
 $success:                       $green !default;
@@ -73,18 +75,18 @@ $information:                   $blue !default;
 // colors: palettes
 $palettes: (
     primary: (
-        dark:       rgba(6, 86, 131, 100),
-        base:       rgba(0, 117, 180, 100),
-        accent:     rgba(41, 145, 195, 100),
-        back:       rgba(204, 227, 240, 100),
-        x-back:     rgba(242, 248, 251, 100)
+        dark:       $green-dark,
+        base:       $green-stanford,
+        accent:     $green-medium,
+        back:       $green-light,
+        x-back:     $green-bg
     ),
     secondary: (
-        dark:       rgba(152, 44, 98, 100),
-        base:       rgba(194, 56, 125, 100),
-        accent:     rgba(224, 155, 190, 100),
-        back:       rgba(243, 215, 229, 100),
-        x-back:     rgba(252, 245, 248, 100)
+        dark:       $cardinal-dark,
+        base:       $cardinal-red,
+        accent:     $cardinal-medium,
+        back:       $cardinal-light,
+        x-back:     $cardinal-bg
     ),
     grayscale: (
         dark:       rgba(17, 17, 17, 100),
