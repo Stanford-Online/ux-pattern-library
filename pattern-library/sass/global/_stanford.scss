@@ -64,3 +64,10 @@ $source-sans-font-path: '#{$font-path}/SourceSans';
 $font-family-sans-serif:    'Source Sans Pro','Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-serif:         'Georgia', Cambria, 'Times New Roman', Times, serif;
 $font-family-monospace:     'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
+
+// Help Modal
+.help-buttons {
+    li {
+        list-style-type: none;
+    }
+}
