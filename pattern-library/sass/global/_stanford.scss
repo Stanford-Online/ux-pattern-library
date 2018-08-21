@@ -11,3 +11,65 @@ $green-stanford: #2F5553;
 $green-medium: #4F7573;
 $green-light: #8FB5B3;
 $green-bg: #e7fff6;
+
+// TYPOGRAPHY
+$pattern-library-path: '..' !default;
+$font-path: '#{$pattern-library-path}/fonts' !default;
+$source-sans-font-path: '#{$font-path}/SourceSans';
+
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-Light.ttf',
+    300
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-LightItalic.ttf',
+    300,
+    italic
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-Regular.ttf',
+    400
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-Italic.ttf',
+    400,
+    italic
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-Semibold.ttf',
+    600
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-SemiboldItalic.ttf',
+    600,
+    italic
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-Bold.ttf',
+    700
+);
+@include font-face(
+    'Source Sans Pro',
+    '#{$source-sans-font-path}/SourceSansPro-BoldItalic.ttf',
+    700,
+    italic
+);
+
+// typography: config - stacks
+$font-family-sans-serif:    'Source Sans Pro','Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-serif:         'Georgia', Cambria, 'Times New Roman', Times, serif;
+$font-family-monospace:     'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
+
+// Help Modal
+.help-buttons {
+    li {
+        list-style-type: none;
+    }
+}
